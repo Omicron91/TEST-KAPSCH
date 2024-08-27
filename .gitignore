@@ -1,0 +1,47 @@
+# Build artifacts
+*.o
+*.obj
+*.a
+*.exe
+*.out
+*.dSYM
+
+# Compiled object files
+*.o
+
+# Libraries
+*.a
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.bin
+
+# Debugging files
+*.gdb
+*.gdbinit
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# IDE specific files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# macOS specific files
+*.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Linux specific files
+*.directory
+
+# build directory
+build/
