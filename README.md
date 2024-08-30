@@ -23,7 +23,7 @@ The task involves implementing a simple number factorization application using a
 
 ## Executing by Terminal
 
-1. **Set up the environment variable:**
-   - Export the `LD_LIBRARY_PATH` to include the path to the shared libraries.
-   ```sh
+**Set up the environment variable:**
+- Export the `LD_LIBRARY_PATH` to include the path to the shared libraries.
+  ```sh
    export LD_LIBRARY_PATH=path/to/shared/libs

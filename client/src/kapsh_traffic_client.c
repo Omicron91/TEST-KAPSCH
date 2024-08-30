@@ -280,7 +280,7 @@ void *requestHandling(void *args)
     char *num = threadArgsData->strNumber;
 
     int socketFd = connect2server(host, port);
-    if (socketFd == -1)
+    if (socketFd < 0)
     {
         close(socketFd);
         free(threadArgsData);
